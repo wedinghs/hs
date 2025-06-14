@@ -1,0 +1,439 @@
+/* homehome */
+:root {
+    --pink: #036ffc;
+    --bg: #0a0a0a;
+    --shadow: 0 2px 2px rgb(0 0 0 / 0.8);
+    --pink1: #f80894;
+    --sputih: 0 2px 2px  rgba(255, 255, 255, 0.8);
+}
+.home .wood img,
+.gallery .wood img,
+.wassalam .wood img {
+    width: 20%;
+}
+.home .berdua img {
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.home {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.home {
+    position: relative;
+    min-height: 100vh;
+}
+.home h1 {
+    font-family: 'Carattere', cursive;
+    font-size: 4rem;
+    padding-top: 1rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+}
+.home h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+}
+.home h4 {
+    font-size: 1.5rem;
+    font-weight: 600px;
+    color: rgb(176, 226, 255);
+}
+.home p {
+    font-size: 0.8rem;
+}
+body {
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 2000px;
+}
+
+.home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tema/tema\ 1\ a.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.home {
+    position: relative;
+    min-height: 100vh;
+}
+
+.home .simply-countdown {
+    color: rgb(255, 255, 255);
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerNav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 4;
+    background-color:#222;
+    bottom: 2rem;       
+    padding: 1rem 1rem;
+    border-radius: 15px;
+    gap: 1rem;
+}
+.iconNavbar {
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+.iconNavbar:hover {
+    font-size: 2rem;
+    color: #4e4e4e;
+    padding: 1rem;
+}
+
+/* mempelai */
+.mempelai {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tema/tema\ 1\ a.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.bismilah {
+    width: 90%;
+    margin-bottom: 1.5rem;
+    padding-top: 3.5rem;
+}
+.mempelai h3 {
+    font-family: 'Carattere', cursive;
+    font-size: 3.5rem;
+    padding-top: 1rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+}
+.mempelai h4 {
+    font-size: 1.5rem;
+    color: rgb(176, 226, 255);
+}
+.mempelai img {
+    width: 60%;
+}
+.mempelai p {
+    font-size: 1.5rem !important;
+    color: rgb(255, 255, 255); 
+    font-weight: 600rem;
+    padding-bottom: 3rem;
+}
+.mempelai h1 {
+    font-size: 10rem;
+    color: rgb(176, 226, 255);
+    font-weight: 600rem;
+    font-family: 'Carattere', cursive;
+}
+.bgluar {
+    background-color:rgb(176, 226, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.bgdalam {
+    background-color: #222;
+}
+.sabda p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 0.5rem;
+}
+/* story */
+.story {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tema/tema\ 1\ a.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.story h3 {
+    font-size: 5rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+    font-family: 'Carattere', cursive;
+}
+.story img {
+    width: 80%;
+    padding-bottom: 2rem;
+}
+/* mempelai end */
+
+/* audio */
+.audio-icon-wrapper {
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 3.5rem;
+    right: 3rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+    mix-blend-mode: difference;
+}
+/* audio end */
+
+/* acara */
+.acara {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tema/tema\ 1\ b.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.acara h3 {
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: var(--shadow);
+    font-family: 'Carattere', cursive;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.acara img {
+    width: 80%;
+}
+.acara h2 {
+    color: #ffffff;
+}
+.acara .btnlihat {
+    background-color: #fff;
+    font-size: 1.5rem;
+}
+.acara .btnlihat:hover {
+    background-color: #858585;
+    font-size: 1.5rem;
+}
+/* acara end */
+
+/* gallery */
+.gallery {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tema/tema\ 1\ b.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.gallery .jr img{
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.gallery .isi img {
+    padding: 2rem;
+}
+.gallery h3 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+    font-family: 'Carattere', cursive;
+    padding-top: 2rem;
+}
+/* gallery end */
+
+/* gift */
+.gift, .wassalam, .ucapan {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tema/tema\ 1\ b.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.gift h3 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+    font-family: 'Carattere', cursive;
+}
+.gift .bank h3 {
+    font-size: 3.5rem;
+    color: #222;
+    text-shadow: var(--sputih);
+    font-family: 'Carattere', cursive;
+}
+.gift p {
+    font-size: 1.2rem;
+    color: rgb(176, 226, 255);
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.gift .bank p {
+    color: #222;
+}
+.gift i {
+    font-size: 3rem;
+    color: rgb(176, 226, 255);
+}
+.gift .bank i {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.bank img {
+    width: 40%;
+    padding-bottom: 3rem;
+}
+.gift .bank {
+    margin-right: 6rem;
+    margin-left: 6rem;
+    border-width: 0.5rem;
+    border-color: rgb(0, 52, 82);
+    color: rgb(0, 52, 82);
+}
+
+.gift span {
+font-weight: 600;
+font-size: 1.2rem;
+}
+.gift button {
+    background-color: #222;
+    color: #ffffff;
+}
+.gift button:hover {
+    background-color: #646464;
+    color: #ffffff;
+}
+/* gift end */
+/* wassalam */
+.wassalam p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(176, 226, 255);
+}
+.wassalam h3, .wassalam h4 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+    font-family: 'Carattere', cursive;
+}
+.wassalam img {
+    width: 50%;
+}
+/* wassalam end */
+
+/* ucapan */
+.ucapan img {
+    width: 50%;
+}
+.ucapan h3 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-shadow: var(--shadow);
+    font-family: 'Carattere', cursive;
+}
+.ucapan p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(176, 226, 255);
+}
+.ucapan .isiucapan {
+    border-width: 0.5rem;
+    border-color: rgb(0, 52, 82);
+    color: rgb(0, 52, 82);
+}
+.ucapan .btnucapan {
+    color: #ffffff;
+    background-color: rgb(0, 52, 82);
+    font-size: 1.2rem;
+    margin-top: -1.2rem;
+}
+/* ucapan end */
+
+/* footer */
+footer .btnwa {
+    color: rgb(0, 182, 0);
+    font-size: 2rem;
+}
+footer .btnwa:hover {
+    color: #ffffff;
+}
+footer {
+    padding: 3rem;
+background-color: #e64077;
+    color: white;
+    padding-bottom: 7rem;
+}
+footer a {
+    color: var(--bg);
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
+footer li {
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+/* footer end */
+
+/* laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 60px !important;
+    }
+}
+/* tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 50px !important;
+    }
+}
+/* mobile */
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 30px !important;
+}
+}

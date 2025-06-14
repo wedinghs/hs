@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Percetakan Seiko</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Carattere&family=Dancing+Script&family=Pacifico&family=Roboto:wght@400;500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="hero"
+        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <div class="container berdua text-center">
+                <img src="img/berdua.png" alt="" class="img-responsive berdua">
+            </div>
+            <h3>The Wedding Of</h3>
+            <h1>Khairul & Syaidah</h1>
+            <h4>Kepada YTH.</h4>
+            <h3><span>Bapak/Ibu/Saudara/i, </span></h3>
+            <a href="main.html" class="btn btn-lg mt-4"><i class="uil-upload-alt"></i>Buka Undangan</a>
+            <p>Mohon maaf apabila ada kesalahan penulisan nama/gelar</p>
+        </main>
+    </section>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('n') || '';
+        const nama2 = urlParams.get('n2') || '';
+        const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
+        const namaContainer = document.querySelector('.hero h3 span');
+        namaContainer.innerText = `${pronoun} ${nama} ${nama2}`.replace(/ ,$/, ',');
+    </script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
