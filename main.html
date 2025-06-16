@@ -7,6 +7,7 @@
     <title>Percetakan Seiko</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="snow.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
@@ -396,6 +397,21 @@
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
         AOS.init();
+      </script>
+
+    <script>
+        // Snow effect
+    const snowContainer = document.createDocumentFragment();
+    for (let i = 0; i < 50; i++) {
+      const snow = document.createElement('div');
+      snow.classList.add('snowflake');
+      snow.style.left = Math.random() * 100 + 'vw';
+      snow.style.animationDuration = 5 + Math.random() * 5 + 's';
+      snow.style.fontSize = 0.8 + Math.random() * 1.2 + 'em';
+      snow.textContent = '❄';
+      snowContainer.appendChild(snow);
+    }
+    document.body.appendChild(snowContainer);
       </script>
 </body>
 
